@@ -11,6 +11,7 @@ public class MainPhone {
         System.out.println(phone2.getNumber());
         phone1.receiveCall("Vasea");
         phone.receiveCall("Ion",phone.getNumber());
+        phone2.receiveCall("Iurii",phone1.getNumber());
 
     }
 }
